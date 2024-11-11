@@ -7,3 +7,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.jumbotron {
+    background-image: url("/assets/images/project-banner.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
