@@ -20,6 +20,8 @@ body {
 #logo {
     width: 200px;
     border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .jumbotron {
@@ -28,4 +30,23 @@ body {
     background-position: center;
     color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+    #logo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 80px;
+    }
 }
